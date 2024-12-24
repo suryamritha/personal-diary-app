@@ -37,16 +37,17 @@ Set Execution Policy (if on Windows): If you're on Windows and face any script e
 
    
 
-4.Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+4. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Install Dependencies: Install Flask, werkzeug, and email-validator by running:
 
    ```bash
 pip install flask werkzeug email-validator
-5.Run the Application: After installing the dependencies, you can run the Flask application with:
+
+5.**Run the Application**: After installing the dependencies, you can run the Flask application with:
 
    ```bash
 python app.py
-6Access the Application
+6.**Access the Application**
 Once the server is running, open your web browser and go to:
 
    ```bash
