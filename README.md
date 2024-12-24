@@ -46,13 +46,15 @@ If you're working with PowerShell and need to change the execution policy to all
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 
-###5.**Run the Application**: After installing the dependencies, you can run the Flask application with:
+## 5. Run the Application
+After installing the dependencies, you can run the Flask application with:
 
-   ```bash
+```bash
 python app.py
 
-###6.**Access the Application**
+
+### 6. Access the Application
 Once the server is running, open your web browser and go to:
 
-   ```bash
+```bash
 http://127.0.0.1:5000/
