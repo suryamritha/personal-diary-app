@@ -33,20 +33,24 @@ Follow these steps to set up and run the application locally:
 3. **Upgrade pip**: After activating the virtual environment, upgrade pip by running the following:
    ```bash
    python -m pip install --upgrade pip
+   
+  
 Set Execution Policy (if on Windows): If you're on Windows and face any script execution issues, run the following command:
 
    
 
-4. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-Install Dependencies: Install Flask, werkzeug, and email-validator by running:
+## 4. Set Execution Policy (if required)
+If you're working with PowerShell and need to change the execution policy to allow running scripts, use the following command:
 
-   ```bash
-pip install flask werkzeug email-validator
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 
 5.**Run the Application**: After installing the dependencies, you can run the Flask application with:
 
    ```bash
 python app.py
+
 6.**Access the Application**
 Once the server is running, open your web browser and go to:
 
