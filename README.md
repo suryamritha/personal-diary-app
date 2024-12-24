@@ -1,3 +1,6 @@
+Here is the corrected version of your **README.md** file:
+
+```markdown
 # Personal Digital Diary Management System
 
 This project entails the development of a comprehensive **Personal Digital Diary Management System**, integrating **SQLite** and **Flask** to establish a robust backend infrastructure. The system features a user-friendly web interface allowing individuals to create accounts, log in securely, and manage their diary entries across four distinct categories: **story**, **poem**, **travel experience**, and **article**. 
@@ -20,6 +23,8 @@ Follow these steps to set up and run the application locally:
 1. **Create a Virtual Environment**:
    ```bash
    python -m venv venv
+   ```
+
 2. **Activate the Virtual Environment**: Open the command prompt or terminal and run the following command to activate the virtual environment:
    - On **Windows**:
      ```bash
@@ -33,28 +38,29 @@ Follow these steps to set up and run the application locally:
 3. **Upgrade pip**: After activating the virtual environment, upgrade pip by running the following:
    ```bash
    python -m pip install --upgrade pip
-   
-  
-Set Execution Policy (if on Windows): If you're on Windows and face any script execution issues, run the following command:
+   ```
 
-   
+4. **Set Execution Policy (if required)**  
+   If you're working with PowerShell and need to change the execution policy to allow running scripts, use the following command:
+   ```bash
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
 
-## 4. Set Execution Policy (if required)
-If you're working with PowerShell and need to change the execution policy to allow running scripts, use the following command:
+5. **Install Dependencies**: Install the necessary dependencies, including Flask, Werkzeug, and email-validator by running:
+   ```bash
+   pip install flask werkzeug email-validator
+   ```
 
-```bash
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+6. **Run the Application**  
+   After installing the dependencies, you can run the Flask application with:
+   ```bash
+   python app.py
+   ```
 
+7. **Access the Application**  
+   Once the server is running, open your web browser and go to:
+   ```bash
+   http://127.0.0.1:5000/
+   ```
 
-## 5. Run the Application
-After installing the dependencies, you can run the Flask application with:
-
-```bash
-python app.py
-
-
-### 6. Access the Application
-Once the server is running, open your web browser and go to:
-
-```bash
-http://127.0.0.1:5000/
+```
