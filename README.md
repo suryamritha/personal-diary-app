@@ -35,22 +35,20 @@ Follow these steps to set up and run the application locally:
    python -m pip install --upgrade pip
 Set Execution Policy (if on Windows): If you're on Windows and face any script execution issues, run the following command:
 
-bash
-Copy code
+'''bash
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Install Dependencies: Install Flask, werkzeug, and email-validator by running:
 
-bash
-Copy code
+ '''bash
+
 pip install flask werkzeug email-validator
 Run the Application: After installing the dependencies, you can run the Flask application with:
 
-bash
-Copy code
+'''bash
 python app.py
 Access the Application
 Once the server is running, open your web browser and go to:
 
-arduino
-Copy code
+'''
 http://127.0.0.1:5000/
