@@ -1,6 +1,6 @@
 Here is the corrected version of your **README.md** file as requested:
 
-```markdown
+
 # Personal Digital Diary Management System
 
 This project entails the development of a comprehensive **Personal Digital Diary Management System**, integrating **SQLite** and **Flask** to establish a robust backend infrastructure. The system features a user-friendly web interface allowing individuals to create accounts, log in securely, and manage their diary entries across four distinct categories: **story**, **poem**, **travel experience**, and **article**. 
